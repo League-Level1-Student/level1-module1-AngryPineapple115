@@ -49,7 +49,7 @@ public class Popcorn {
 	private String flavor;
 	private boolean isCooked = false;
 
-	Popcorn(String flavor) {
+	Popcorn() {
 		this.flavor = flavor;
 		System.out.println("Popcorn says: making package of " + this.flavor + " popcorn.");
 	}
